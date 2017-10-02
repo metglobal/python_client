@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 **currency** | **str** |  | 
 **mealtype_code** | **str** |  | 
 **nonrefundable** | **str** |  | 
-**view** | **str** |  | [optional] 
+**view** | **bool** |  | [optional] 
 **price** | **str** |  | 
 **policies** | [**list[Policy]**](Policy.md) |  | 
 **rooms** | [**list[Room]**](Room.md) |  | 

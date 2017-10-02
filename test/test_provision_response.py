@@ -17,9 +17,9 @@ import os
 import sys
 import unittest
 
-import swagger_client
-from swagger_client.rest import ApiException
-from swagger_client.models.provision_response import ProvisionResponse
+import hotelspro_client
+from hotelspro_client.rest import ApiException
+from hotelspro_client.models.provision_response import ProvisionResponse
 
 
 class TestProvisionResponse(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestProvisionResponse(unittest.TestCase):
         Test ProvisionResponse
         """
         # FIXME: construct object with mandatory attributes with example values
-        #model = swagger_client.models.provision_response.ProvisionResponse()
+        #model = hotelspro_client.models.provision_response.ProvisionResponse()
         pass
 
 

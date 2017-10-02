@@ -42,7 +42,7 @@ class BookResponse(object):
         'currency': 'str',
         'mealtype_code': 'str',
         'nonrefundable': 'str',
-        'view': 'str',
+        'view': 'bool',
         'price': 'str',
         'policies': 'list[Policy]',
         'rooms': 'list[Room]',
@@ -391,7 +391,7 @@ class BookResponse(object):
         Gets the view of this BookResponse.
 
         :return: The view of this BookResponse.
-        :rtype: str
+        :rtype: bool
         """
         return self._view
 
@@ -401,7 +401,7 @@ class BookResponse(object):
         Sets the view of this BookResponse.
 
         :param view: The view of this BookResponse.
-        :type: str
+        :type: bool
         """
 
         self._view = view

@@ -17,9 +17,9 @@ import os
 import sys
 import unittest
 
-import swagger_client
-from swagger_client.rest import ApiException
-from swagger_client.models.book_response_confirmation_numbers import BookResponseConfirmationNumbers
+import hotelspro_client
+from hotelspro_client.rest import ApiException
+from hotelspro_client.models.book_response_confirmation_numbers import BookResponseConfirmationNumbers
 
 
 class TestBookResponseConfirmationNumbers(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestBookResponseConfirmationNumbers(unittest.TestCase):
         Test BookResponseConfirmationNumbers
         """
         # FIXME: construct object with mandatory attributes with example values
-        #model = swagger_client.models.book_response_confirmation_numbers.BookResponseConfirmationNumbers()
+        #model = hotelspro_client.models.book_response_confirmation_numbers.BookResponseConfirmationNumbers()
         pass
 
 

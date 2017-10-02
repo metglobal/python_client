@@ -17,9 +17,9 @@ import os
 import sys
 import unittest
 
-import swagger_client
-from swagger_client.rest import ApiException
-from swagger_client.models.search_response import SearchResponse
+import hotelspro_client
+from hotelspro_client.rest import ApiException
+from hotelspro_client.models.search_response import SearchResponse
 
 
 class TestSearchResponse(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestSearchResponse(unittest.TestCase):
         Test SearchResponse
         """
         # FIXME: construct object with mandatory attributes with example values
-        #model = swagger_client.models.search_response.SearchResponse()
+        #model = hotelspro_client.models.search_response.SearchResponse()
         pass
 
 

@@ -19,11 +19,11 @@ import unittest
 
 import hotelspro_client
 from hotelspro_client.rest import ApiException
-from hotelspro_client.models.book_response import BookResponse
+from hotelspro_client.models.error_detail import ErrorDetail
 
 
-class TestBookResponse(unittest.TestCase):
-    """ BookResponse unit test stubs """
+class TestErrorDetail(unittest.TestCase):
+    """ ErrorDetail unit test stubs """
 
     def setUp(self):
         pass
@@ -31,12 +31,12 @@ class TestBookResponse(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testBookResponse(self):
+    def testErrorDetail(self):
         """
-        Test BookResponse
+        Test ErrorDetail
         """
         # FIXME: construct object with mandatory attributes with example values
-        #model = hotelspro_client.models.book_response.BookResponse()
+        #model = hotelspro_client.models.error_detail.ErrorDetail()
         pass
 
 

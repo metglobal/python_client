@@ -22,7 +22,9 @@ from .models.book_response_rooms import BookResponseRooms
 from .models.booking_list_response import BookingListResponse
 from .models.cancel_response import CancelResponse
 from .models.error import Error
+from .models.error_detail import ErrorDetail
 from .models.error_details import ErrorDetails
+from .models.error_details_detail import ErrorDetailsDetail
 from .models.hotel_availability_response import HotelAvailabilityResponse
 from .models.pax import Pax
 from .models.policy import Policy

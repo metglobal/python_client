@@ -17,9 +17,9 @@ import os
 import sys
 import unittest
 
-import swagger_client
-from swagger_client.rest import ApiException
-from swagger_client.models.policy import Policy
+import hotelspro_client
+from hotelspro_client.rest import ApiException
+from hotelspro_client.models.policy import Policy
 
 
 class TestPolicy(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestPolicy(unittest.TestCase):
         Test Policy
         """
         # FIXME: construct object with mandatory attributes with example values
-        #model = swagger_client.models.policy.Policy()
+        #model = hotelspro_client.models.policy.Policy()
         pass
 
 

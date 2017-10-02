@@ -33,6 +33,7 @@ class Product(object):
     swagger_types = {
         'code': 'str',
         'offer': 'bool',
+        'pay_at_hotel': 'bool',
         'nonrefundable': 'bool',
         'price': 'str',
         'currency': 'str',
@@ -49,6 +50,7 @@ class Product(object):
     attribute_map = {
         'code': 'code',
         'offer': 'offer',
+        'pay_at_hotel': 'pay_at_hotel',
         'nonrefundable': 'nonrefundable',
         'price': 'price',
         'currency': 'currency',
@@ -62,13 +64,14 @@ class Product(object):
         'view': 'view'
     }
 
-    def __init__(self, code=None, offer=None, nonrefundable=None, price=None, currency=None, rooms=None, supports_cancellation=None, hotel_currency=None, hotel_price=None, meal_type=None, policies=None, minimum_selling_price=None, view=None):
+    def __init__(self, code=None, offer=None, pay_at_hotel=None, nonrefundable=None, price=None, currency=None, rooms=None, supports_cancellation=None, hotel_currency=None, hotel_price=None, meal_type=None, policies=None, minimum_selling_price=None, view=None):
         """
         Product - a model defined in Swagger
         """
 
         self._code = None
         self._offer = None
+        self._pay_at_hotel = None
         self._nonrefundable = None
         self._price = None
         self._currency = None
@@ -85,6 +88,8 @@ class Product(object):
           self.code = code
         if offer is not None:
           self.offer = offer
+        if pay_at_hotel is not None:
+          self.pay_at_hotel = pay_at_hotel
         if nonrefundable is not None:
           self.nonrefundable = nonrefundable
         if price is not None:
@@ -151,6 +156,27 @@ class Product(object):
         """
 
         self._offer = offer
+
+    @property
+    def pay_at_hotel(self):
+        """
+        Gets the pay_at_hotel of this Product.
+
+        :return: The pay_at_hotel of this Product.
+        :rtype: bool
+        """
+        return self._pay_at_hotel
+
+    @pay_at_hotel.setter
+    def pay_at_hotel(self, pay_at_hotel):
+        """
+        Sets the pay_at_hotel of this Product.
+
+        :param pay_at_hotel: The pay_at_hotel of this Product.
+        :type: bool
+        """
+
+        self._pay_at_hotel = pay_at_hotel
 
     @property
     def nonrefundable(self):

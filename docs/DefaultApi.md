@@ -1,4 +1,4 @@
-# swagger_client.DefaultApi
+# hotelspro_client.DefaultApi
 
 All URIs are relative to *https://localhost/api/v2*
 
@@ -25,16 +25,16 @@ Check Availability of Selected Product
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 product_code = 'product_code_example' # str | product code that returned in Search(or Hotel Availability) Response
 
 try: 
@@ -77,16 +77,16 @@ Returns Book Response
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 name = ['name_example'] # list[str] | A person's name.
 provision_code = 'provision_code_example' # str | 
 
@@ -131,16 +131,16 @@ Returns past booking(s) data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 booking_code = 'booking_code_example' # str | This is the code that taken from the response of bookings request
 
 try: 
@@ -183,16 +183,16 @@ Returns past booking(s) data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 from_date = 'from_date_example' # str | This is the booking date for filtering the bookings from the from_date(YYYY-MM-DD). (optional)
 to_date = 'to_date_example' # str | This is the booking date for filtering the bookings until the to_date(YYYY-MM-DD). (optional)
 format = 'format_example' # str | Only JSON supported (optional)
@@ -239,16 +239,16 @@ Cancel the Booking
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 booking_code = 'booking_code_example' # str | Booking Code that returned in Book Response
 
 try: 
@@ -291,16 +291,16 @@ Check Availability of Selected Hotel
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 search_code = 'search_code_example' # str | search code that returned in search response
 hotel_code = 'hotel_code_example' # str | requested hotel code
 
@@ -345,16 +345,16 @@ Provision of Selected Product
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 product_code = 'product_code_example' # str | product code that returned in Search(or Hotel Availability) Response
 
 try: 
@@ -397,16 +397,16 @@ Returns list of products
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import hotelspro_client
+from hotelspro_client.rest import ApiException
 from pprint import pprint
 
 # Configure HTTP basic authorization: basicAuth
-swagger_client.configuration.username = 'YOUR_USERNAME'
-swagger_client.configuration.password = 'YOUR_PASSWORD'
+hotelspro_client.configuration.username = 'YOUR_USERNAME'
+hotelspro_client.configuration.password = 'YOUR_PASSWORD'
 
 # create an instance of the API class
-api_instance = swagger_client.DefaultApi()
+api_instance = hotelspro_client.DefaultApi()
 pax = ['pax_example'] # list[str] | Number of pax
 checkin = 'checkin_example' # str | Checkin
 checkout = 'checkout_example' # str | Checkout
